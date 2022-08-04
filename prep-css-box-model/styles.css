@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+}
+
+button {
+  background-color: red;
+  color: white;
+  margin: 20px;
+  padding: 10px;
+
+  p.double {
+    border-style: double;
+    width: 3px;
+    color: darkgray;
+  }
+
+  /* 👇 YOUR CODE HERE 👇 */
+}
