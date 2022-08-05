@@ -7,12 +7,7 @@ button {
   color: white;
   margin: 20px;
   padding: 10px;
-
-  p.double {
-    border-style: double;
-    width: 3px;
-    color: darkgray;
-  }
-
-  /* 👇 YOUR CODE HERE 👇 */
+  border: 3px double darkgray;
 }
+
+/* 👇 YOUR CODE HERE 👇 */
