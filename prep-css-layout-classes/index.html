@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+      flex-basis: 33%;
+    }
+
+    .column {
+      flex-basis: 33%;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Complete the HTML here -->
+  <h1>Indiana Jones</h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="images/crusade.jpg" alt="Indiana Jones The Last Crusade">
+        <h3>The Last Crusade</h3>
+        <p>In 1938, after his father Professor Henry Jones, Sr. goes missing while pursuing the Holy Grail, Professor Henry
+        'Indiana' Jones, Jr. finds himself up against Adolf Hitler's Nazis again to stop them from obtaining its powers.
+        </p>
+      </div>
+      <div class="column">
+        <img src="images/raiders.jpg" alt="Indiana Jones Raiders of the Lost Ark">
+        <h3>Raiders of the Lost Ark</h3>
+        <p>Archaeology professor Indiana Jones ventures to seize a biblical artefact known as the Ark of the Covenant. While doing
+        so, he puts up a fight against Renee and a troop of Nazis.</p>
+      </div>
+      <div class="column">
+        <img src="images/temple.jpg" alt="Indiana Jones Temple of Doom">
+        <h3>Temple of Doom</h3>
+        <p>A skirmish in Shanghai puts archaeologist Indiana Jones, his partner Short Round and singer Willie Scott crossing paths
+        with an Indian village desperate to reclaim a rock stolen by a secret cult beneath the catacombs of an ancient palace.</p>
+      </div>
+    </div>
+
+</body>
+</html>
